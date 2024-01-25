@@ -49,7 +49,7 @@ from typing_extensions import Protocol
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s %(levelname)s %(process)d:%(name)s - %(message)s",
+    format="%(asctime)s %(levelname)s %(process)d [%(filename)s:%(lineno)d:%(funcName)s] - %(message)s",
     datefmt="%Y-%m-%d %H:%M",
 )
 
